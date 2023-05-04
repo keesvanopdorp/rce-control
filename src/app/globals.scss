@@ -1,0 +1,14 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@media screen and (min-width: 576px) {
+  .row {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    height: 65px;
+  }
+}
