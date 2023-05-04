@@ -50,3 +50,9 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Know issues
+
+- The application is not secure, because the auth key is not asked when starting the application.
+
+- There is not option to edit the config file from the application.
