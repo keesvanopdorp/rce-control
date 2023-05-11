@@ -1,5 +1,4 @@
 'use client';
-
 import { Command } from '@libs/types/Config';
 import React, { FunctionComponent } from 'react';
 import { Button } from 'react-bootstrap';

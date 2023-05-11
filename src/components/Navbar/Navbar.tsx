@@ -15,7 +15,7 @@ const Navbar = () => {
                         <Link className="text-black mx-md-3 my-md-2 text-decoration-none" href="/">
                             Commands
                         </Link>
-                        <Link className="text-black mx-md-3 my-md-2 text-decoration-none" href="/new">
+                        <Link className="text-black mx-md-3 my-md-2 text-decoration-none" href="/add">
                             Add command
                         </Link>
                         <Link className="text-black mx-md-3 my-md-2 text-decoration-none" href="/edit">

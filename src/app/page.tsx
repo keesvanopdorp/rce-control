@@ -23,7 +23,6 @@ export default function Home() {
     const commandButtonClickHandler = async (name: string) => {
         try {
             const res = await axios.get<Response>(`/api/command/${name}`);
-            console.log(res);
             setAlert({ message: res.data.message, type: 'success' });
         } catch (e) {
             if (e instanceof AxiosError) {

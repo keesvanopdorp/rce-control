@@ -1,5 +1,4 @@
 'use client';
-
 import { CommandButton } from '@components';
 import { Commands } from '@libs/types/Config';
 import React, { FunctionComponent } from 'react';
